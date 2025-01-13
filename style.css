@@ -1,0 +1,75 @@
+/* customizam Bootstrap */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #2bb686;
+  border-color: #2bb686;
+}
+
+.text-primary {
+  color: #101d42 !important;
+}
+
+.text-secondary {
+  color: #fbb44c !important;
+}
+
+.text-light {
+  color: #eaeaea !important;
+}
+
+.bg-primary {
+  background-color: #141e4c !important;
+}
+
+.bg-secondary {
+  background-color: #dfedf5 !important;
+}
+
+.bg-dark {
+  background-color: #101d42 !important;
+}
+
+#scroll-up-container {
+  background-color: #2bb68666;
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: .5rem;
+  border: 0;
+  border-radius: 50%;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  transition: 0.5s ease-in-out;
+  display: none;
+}
+
+#scroll-up-container:hover {
+  background-color: #2bb686;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+/* adaugam font ul nostru */
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Layout */
+body {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+header {
+  height: 30vh;
+}
