@@ -13,6 +13,7 @@ currentCityTag.innerHTML = currentCity;
 
 displayCurrentWeather(currentCity);
 displayWeatherForecast(currentCity);
+console.log(currentCity, 'index')
 
 document.querySelector(".year").innerHTML += new Date().getFullYear();
 

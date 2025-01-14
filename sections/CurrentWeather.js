@@ -3,6 +3,7 @@
 function displayCurrentWeather(city) {
   //generam link-ul serverului, pe baza orasului
   const currentWeatherEndpoint = getCurrentWeatherEndpoint(city);
+  console.log(city, 'current')
 
   fetch(currentWeatherEndpoint)
     .then((response) => response.json())

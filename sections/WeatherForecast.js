@@ -1,6 +1,7 @@
 
 function displayWeatherForecast(city) {
     const forecastEndpoint = getForecastEndpoint(city);
+    console.log(city, 'forecast')
 
     let weatherForecastContainer = document.querySelector('.weather-forecast');
     weatherForecastContainer.innerHTML = '';
@@ -8,8 +9,7 @@ function displayWeatherForecast(city) {
     fetch(forecastEndpoint)
     .then((response) => response.json())
     .then((data) => {
-        console.log(data);
-        
+
         const { list } = data;
         const daysMap = {};
 
