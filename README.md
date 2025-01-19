@@ -8,4 +8,6 @@
 
 >The information is collected via [OpenWeatherMap](https://openweathermap.org/) API.
 
+### Visit live web page at https://itschoolweather.netlify.app/
+
 
